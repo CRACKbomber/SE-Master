@@ -1,10 +1,4 @@
-﻿using CommandLine.Text;
-using CommandLine;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommandLine;
 using SEMaster.FileFormats;
 
 namespace SE_Master.CLI
@@ -12,17 +6,27 @@ namespace SE_Master.CLI
 	[Verb("extract", HelpText = "Extract all contents of a zip")]
 	public class ZipExtract : ZipAction
 	{
-		public override void RunAction()
+
+		public override ActionResult Execute()
 		{
-			XZP2Pack pack = new(File.OpenRead(ZipName));
-			base.RunAction();
+			XZP2Pack pack;
+
+			try
+			{
+				pack = new(File.OpenRead(ZipName));
+			}
+			catch
+			{
+				Console.WriteLine("Failed to open zip!");
+				throw;
+			}
 
 			foreach (var zipEntry in pack.ZipEntries.Values)
 			{
-				Console.
+				Console.WriteLine(zipEntry.FileName);
 			}
 
-			return;
+			return ActionResult.OK;
 		}
 	}
 }

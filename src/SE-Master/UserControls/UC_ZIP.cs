@@ -14,34 +14,35 @@ namespace SE_Master.UserControls
 {
     public partial class UC_ZIP : UserControl
     {
-		XZP2Pack _zipPack;
+		// XZP2Pack _zipPack;
         public UC_ZIP()
         {
             InitializeComponent();
-
-
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             // TODO: Handle if a zip is already open.
-            using (var fdlg = new OpenFileDialog()
+            using var fdlg = new OpenFileDialog()
             {
                 Title = "SE Master | Select a 360.zip file",
                 InitialDirectory = @"c:\",
                 Filter = "360.zip (*.360.zip)|*.360.zip",
                 FilterIndex = 2,
                 RestoreDirectory = true
-            })
-                if (fdlg.ShowDialog() == DialogResult.OK)
-                {
-                    var path = fdlg.FileName;
+            };
+            if (fdlg.ShowDialog() == DialogResult.OK)
+            {
+                var path = fdlg.FileName;
+                textBox1.Text = path;
 
-                    _zipPack = new XZP2Pack(File.OpenRead(path));
+                // _zipPack = new XZP2Pack(File.OpenRead(path));
 
-					// TODO: Fill treeview or whatever with zip directory (_zipPack.ZipEntries)
-				}
-		}
+                // TODO: Fill treeview or whatever with zip directory (_zipPack.ZipEntries)
+
+
+            }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -50,7 +51,7 @@ namespace SE_Master.UserControls
 
         private void button5_Click(object sender, EventArgs e)
         {
-            HelpBoxZip infoForm = new HelpBoxZip();
+            HelpBoxZip infoForm = new();
             infoForm.ShowDialog();
         }
     }

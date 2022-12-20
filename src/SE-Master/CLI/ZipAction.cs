@@ -1,14 +1,8 @@
-﻿using CommandLine.Text;
-using CommandLine;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommandLine;
 
 namespace SE_Master.CLI
 {
-	public abstract class ZipAction : BasicAction
+	public class ZipAction : BasicAction
 	{
 		//=================================================
 		// CRACK - Ignore this warning.
@@ -22,7 +16,7 @@ namespace SE_Master.CLI
 		public string DirectoryName { get; set; }
 #pragma warning restore CS8618
 
-		public override void RunAction()
+		public override ActionResult Execute()
 		{
 			// make sure zip exists
 			if (!File.Exists(ZipName)) throw new FileNotFoundException("Zip not found", ZipName);
@@ -36,16 +30,8 @@ namespace SE_Master.CLI
 				Directory.Delete(DirectoryName, true);
 				Directory.CreateDirectory(DirectoryName);
 			}
-		}
 
-		/// <summary>
-		/// Simple stub for running a return codeless action
-		/// </summary>
-		/// <returns></returns>
-		public override int RunActionExit()
-		{
-			RunAction();
-			return 0;
+			return ActionResult.OK;
 		}
 	}
 }

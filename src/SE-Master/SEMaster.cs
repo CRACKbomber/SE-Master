@@ -13,7 +13,7 @@ namespace SE_Master
         const int WM_NCLBUTTONDOWN = 0xA1;
         const int HT_CAPTION = 0x2;
 
-        private void move_window(object sender, MouseEventArgs e)
+        private void Move_window(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -25,7 +25,7 @@ namespace SE_Master
         public SEMaster()
         {
             InitializeComponent();
-            UC_ZIP uc = new UC_ZIP();
+            UC_ZIP uc = new();
             addUserControl(uc);
         }
 
@@ -39,38 +39,38 @@ namespace SE_Master
             this.Close();
         }
 
-        private void button1_MouseHover(object sender, EventArgs e)
+        private void Button1_MouseHover(object sender, EventArgs e)
         {
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(62)))), ((int)(((byte)(67)))));
         }
 
-        private void button1_MouseLeave(object sender, EventArgs e)
+        private void Button1_MouseLeave(object sender, EventArgs e)
         {
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(22)))), ((int)(((byte)(27)))));
         }
 
-        private void button2_MouseHover(object sender, EventArgs e)
+        private void Button2_MouseHover(object sender, EventArgs e)
         {
             this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(62)))), ((int)(((byte)(67)))));
         }
 
-        private void button2_MouseLeave(object sender, EventArgs e)
+        private void Button2_MouseLeave(object sender, EventArgs e)
         {
             this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(22)))), ((int)(((byte)(27)))));
         }
-        private void button3_MouseHover(object sender, EventArgs e)
+        private void Button3_MouseHover(object sender, EventArgs e)
         {
             this.btnInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(62)))), ((int)(((byte)(67)))));
         }
 
-        private void button3_MouseLeave(object sender, EventArgs e)
+        private void Button3_MouseLeave(object sender, EventArgs e)
         {
             this.btnInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(22)))), ((int)(((byte)(27)))));
         }
 
-        private void button_info(object sender, EventArgs e)
+        private void Button_info(object sender, EventArgs e)
         {
-            InfoBox infoForm = new InfoBox();
+            InfoBox infoForm = new();
             infoForm.ShowDialog();
         }
 
@@ -84,31 +84,31 @@ namespace SE_Master
 
         private void SEZIPtab_Click(object sender, EventArgs e)
         {
-            UC_ZIP uc = new UC_ZIP();
+            UC_ZIP uc = new();
             addUserControl(uc);
         }
 
         private void SEMGDtab_Click(object sender, EventArgs e)
         {
-            UC_MGD uc = new UC_MGD();
+            UC_MGD uc = new();
             addUserControl(uc);
         }
 
         private void SERTEtab_Click(object sender, EventArgs e)
         {
-            UC_RTE uc = new UC_RTE();
+            UC_RTE uc = new();
             addUserControl(uc);
         }
 
         private void SESVRtab_Click(object sender, EventArgs e)
         {
-            UC_SVR uc = new UC_SVR();
+            UC_SVR uc = new();
             addUserControl(uc);
         }
 
         private void SEXBXtab_Click(object sender, EventArgs e)
         {
-            UC_XBX uc = new UC_XBX();
+            UC_XBX uc = new();
             addUserControl(uc);
         }
     }

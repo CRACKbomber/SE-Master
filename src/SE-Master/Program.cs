@@ -13,14 +13,15 @@ namespace SE_Master
 		static void Main()
 		{
 			var cmdArgs = Environment.GetCommandLineArgs();
-
 			if (cmdArgs.Length > 1)
 			{
 				// command line args were parsed. init CLI mode
-				Parser.Default.ParseArguments<ZipBuildOpts>(cmdArgs)
+				Parser.Default
+					.ParseArguments<ZipExtract>(cmdArgs)
 					.MapResult(
-					  (AddOptions opts) => RunAddAndReturnExitCode(opts)
-					  errs => 1);
+						(ZipExtract prg) => { return prg.Execute(); }, 
+						err => ActionResult.ERROR
+					);
 			}
 			else
 			{

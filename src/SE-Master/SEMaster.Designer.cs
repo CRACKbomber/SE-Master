@@ -84,6 +84,7 @@
             this.guna2Button2.AccessibleName = "SEXBXtab";
             this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button2.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(106)))), ((int)(((byte)(246)))));
             this.guna2Button2.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -91,7 +92,7 @@
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Azonix", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button2.Font = new System.Drawing.Font("Azonix", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(138)))), ((int)(((byte)(246)))));
             this.guna2Button2.Location = new System.Drawing.Point(462, 0);
@@ -107,6 +108,7 @@
             this.guna2Button1.AccessibleName = "SERTEtab";
             this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(106)))), ((int)(((byte)(246)))));
             this.guna2Button1.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -114,7 +116,7 @@
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Azonix", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button1.Font = new System.Drawing.Font("Azonix", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(138)))), ((int)(((byte)(246)))));
             this.guna2Button1.Location = new System.Drawing.Point(346, 0);
@@ -130,6 +132,7 @@
             this.SERTEtab.AccessibleName = "SERTEtab";
             this.SERTEtab.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.SERTEtab.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.SERTEtab.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SERTEtab.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(106)))), ((int)(((byte)(246)))));
             this.SERTEtab.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
             this.SERTEtab.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -137,7 +140,7 @@
             this.SERTEtab.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.SERTEtab.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.SERTEtab.FillColor = System.Drawing.Color.Transparent;
-            this.SERTEtab.Font = new System.Drawing.Font("Azonix", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SERTEtab.Font = new System.Drawing.Font("Azonix", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SERTEtab.ForeColor = System.Drawing.Color.White;
             this.SERTEtab.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(138)))), ((int)(((byte)(246)))));
             this.SERTEtab.Location = new System.Drawing.Point(230, 0);
@@ -153,6 +156,7 @@
             this.SEMGDtab.AccessibleName = "SEMGDtab";
             this.SEMGDtab.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.SEMGDtab.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.SEMGDtab.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SEMGDtab.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(106)))), ((int)(((byte)(246)))));
             this.SEMGDtab.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
             this.SEMGDtab.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -160,7 +164,7 @@
             this.SEMGDtab.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.SEMGDtab.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.SEMGDtab.FillColor = System.Drawing.Color.Transparent;
-            this.SEMGDtab.Font = new System.Drawing.Font("Azonix", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SEMGDtab.Font = new System.Drawing.Font("Azonix", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SEMGDtab.ForeColor = System.Drawing.Color.White;
             this.SEMGDtab.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(138)))), ((int)(((byte)(246)))));
             this.SEMGDtab.Location = new System.Drawing.Point(115, 0);
@@ -176,6 +180,7 @@
             this.SEZIPtab.AccessibleName = "SEZIPtab";
             this.SEZIPtab.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.SEZIPtab.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.SEZIPtab.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SEZIPtab.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(106)))), ((int)(((byte)(246)))));
             this.SEZIPtab.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
             this.SEZIPtab.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -184,7 +189,7 @@
             this.SEZIPtab.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.SEZIPtab.Dock = System.Windows.Forms.DockStyle.Left;
             this.SEZIPtab.FillColor = System.Drawing.Color.Transparent;
-            this.SEZIPtab.Font = new System.Drawing.Font("Azonix", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SEZIPtab.Font = new System.Drawing.Font("Azonix", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SEZIPtab.ForeColor = System.Drawing.Color.White;
             this.SEZIPtab.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(138)))), ((int)(((byte)(246)))));
             this.SEZIPtab.Location = new System.Drawing.Point(0, 0);
@@ -227,7 +232,7 @@
             this.headerBG.Name = "headerBG";
             this.headerBG.Size = new System.Drawing.Size(978, 60);
             this.headerBG.TabIndex = 0;
-            this.headerBG.MouseDown += new System.Windows.Forms.MouseEventHandler(this.move_window);
+            this.headerBG.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Move_window);
             // 
             // label1
             // 
@@ -236,10 +241,10 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.label1.Location = new System.Drawing.Point(59, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 14);
+            this.label1.Size = new System.Drawing.Size(55, 14); 
             this.label1.TabIndex = 3;
             this.label1.Text = "Alpha 1.0";
-            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.move_window);
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Move_window);
             // 
             // SEMIcon
             // 
@@ -251,7 +256,7 @@
             this.SEMIcon.Size = new System.Drawing.Size(45, 39);
             this.SEMIcon.TabIndex = 2;
             this.SEMIcon.TabStop = false;
-            this.SEMIcon.MouseDown += new System.Windows.Forms.MouseEventHandler(this.move_window);
+            this.SEMIcon.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Move_window);
             // 
             // TitleLabel
             // 
@@ -267,7 +272,7 @@
             this.TitleLabel.TabIndex = 1;
             this.TitleLabel.Text = "SE Master";
             this.TitleLabel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.TitleLabel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.move_window);
+            this.TitleLabel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Move_window);
             // 
             // btnInfo
             // 
@@ -284,14 +289,15 @@
             this.btnInfo.TabIndex = 0;
             this.btnInfo.Text = "?";
             this.btnInfo.UseVisualStyleBackColor = true;
-            this.btnInfo.Click += new System.EventHandler(this.button_info);
-            this.btnInfo.MouseLeave += new System.EventHandler(this.button3_MouseLeave);
-            this.btnInfo.MouseHover += new System.EventHandler(this.button3_MouseHover);
+            this.btnInfo.Click += new System.EventHandler(this.Button_info);
+            this.btnInfo.MouseLeave += new System.EventHandler(this.Button3_MouseLeave);
+            this.btnInfo.MouseHover += new System.EventHandler(this.Button3_MouseHover);
             // 
             // btnMinimize
             // 
             this.btnMinimize.AccessibleName = "btnMinimize";
             this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(22)))), ((int)(((byte)(27)))));
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Azonix", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
@@ -303,13 +309,14 @@
             this.btnMinimize.Text = "-";
             this.btnMinimize.UseVisualStyleBackColor = true;
             this.btnMinimize.Click += new System.EventHandler(this.MinimizeForm);
-            this.btnMinimize.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
-            this.btnMinimize.MouseHover += new System.EventHandler(this.button2_MouseHover);
+            this.btnMinimize.MouseLeave += new System.EventHandler(this.Button2_MouseLeave);
+            this.btnMinimize.MouseHover += new System.EventHandler(this.Button2_MouseHover);
             // 
             // btnClose
             // 
             this.btnClose.AccessibleName = "btnClose";
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(22)))), ((int)(((byte)(27)))));
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Font = new System.Drawing.Font("Azonix", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnClose.ForeColor = System.Drawing.Color.White;
@@ -321,8 +328,8 @@
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.CloseForm);
-            this.btnClose.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
-            this.btnClose.MouseHover += new System.EventHandler(this.button1_MouseHover);
+            this.btnClose.MouseLeave += new System.EventHandler(this.Button1_MouseLeave);
+            this.btnClose.MouseHover += new System.EventHandler(this.Button1_MouseHover);
             // 
             // SEMaster
             // 
@@ -343,7 +350,7 @@
             this.Name = "SEMaster";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SE Master";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.move_window);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Move_window);
             this.Body.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.headerBG.ResumeLayout(false);
